@@ -1,0 +1,83 @@
+body {
+    width: 1000px;
+    margin: auto;
+    box-sizing: fixed;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover {
+    color: blue;
+}
+ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+h1 {
+    margin: 1% auto;
+}
+h5 {
+    margin-top: 0%;
+}
+.container {
+    width: 1000px;
+    background-color:rgb(231, 232, 245);
+    box-sizing: fixed;
+    border-top-style: groove;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: groove;
+    padding: 5px;
+    margin: auto;
+}
+.photo {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+}
+img {
+    width: 150px;
+    height: 15opx;
+}
+.nama a {
+    text-decoration: none;
+    color: black;
+}
+button:hover[type="button"] {
+    background-color: blue;
+}
+.middle {
+    margin: 10px 10px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.right {
+    margin: 10px 10px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.formulir {
+    width: 900px;
+    margin: auto ;
+}
+input[type="text"] {
+    width: 100%;
+}
+button[type="submit"] {
+    width: 909px;
+    background-color: chartreuse;
+    margin-bottom: 20px;
+}
+button:hover[type="submit"] {
+    background-color: rgb(20, 168, 20);
+}
